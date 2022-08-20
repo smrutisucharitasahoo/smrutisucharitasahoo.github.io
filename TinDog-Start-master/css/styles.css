@@ -1,0 +1,155 @@
+body {
+    font-family:  'DynaPuff', cursive;
+}
+
+
+#title {
+    background-color: #ff4c68;
+}
+h1 {
+    font-family:  'DynaPuff', cursive;
+    line-height: 1.5;
+    font-size: 3.5rem;   
+}
+
+h2{
+    font-size: 1.8rem;
+}
+
+p {
+    color: grey;
+}
+
+button {
+    font-family: 'Ubuntu', sans-serif; }
+
+.container-fluid {
+    padding: 2% 8%;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-img {
+    width: 55%;
+    padding-right: 10px;
+    margin-left: 100px;
+   
+    
+}
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+color: #ff4c68;
+    margin-bottom: 1rem
+}
+
+.icon:hover {
+    color: black;
+}
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 20%;
+    margin: 15px;
+}
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 5%;  
+}
+
+.press-logo {
+    width: 13%;
+    margin: 20px;
+}
+
+.mastiff, .chihuahua, .labrador {
+    margin-bottom: 57px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-columns {
+    padding: 3% 4%;
+}
+
+@media (max-width:1028px) {
+    .title-img{
+        position: static;
+       
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+}
+
+#cta {
+    text-align: center;
+   padding: 7% 15%;
+   background-color: #ff4c68;
+   
+}
+
+.cta-head{
+    line-height: 1;
+    font-size: 3rem;
+}
+#footer {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+    margin-bottom: 57px;
+    
+}
+
+.twitter, .facebook, .instagram, .envelope {
+    width: 3%;
+
+}
+
+.copy {
+    margin-top:7px ;
+}
